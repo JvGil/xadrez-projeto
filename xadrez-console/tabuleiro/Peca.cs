@@ -1,5 +1,5 @@
 ﻿namespace tabuleiro {
-    class Peca {
+    abstract class Peca {
 
         // Classe para indicar o que é uma peça
 
@@ -20,5 +20,7 @@
         public void incrementarQteMovimentos() {
             qteMovimentos++;
         }
+
+        public abstract bool[,] movimentosPossiveis();
     }
 }
