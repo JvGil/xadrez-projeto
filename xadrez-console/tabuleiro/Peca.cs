@@ -16,5 +16,9 @@
             this.cor = cor;
             qteMovimentos = 0; //Quando jogo é iniciado, a peça não tem nenhum movimento
         }
+
+        public void incrementarQteMovimentos() {
+            qteMovimentos++;
+        }
     }
 }
